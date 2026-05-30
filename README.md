@@ -13,9 +13,7 @@ brew install <formula>
 
 | Formula | Description |
 |---------|-------------|
-| `cloudworkstation` | Cloud-based development workstations on AWS |
 | `prism` | Project scaffolding and template management |
-| `cargoship` | Container deployment tooling |
 | `cicada` | CI/CD utility |
 | `bagboy` | Packaging helper |
 | `aws-jupyter` | Launch Jupyter on AWS |
