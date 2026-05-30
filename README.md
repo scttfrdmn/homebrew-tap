@@ -14,6 +14,7 @@ brew install <formula>
 | Formula | Description |
 |---------|-------------|
 | `prism` | Project scaffolding and template management |
+| `cargoship` | Enterprise data archiving for AWS |
 | `cicada` | CI/CD utility |
 | `bagboy` | Packaging helper |
 | `aws-jupyter` | Launch Jupyter on AWS |
