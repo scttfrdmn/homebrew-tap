@@ -5,21 +5,21 @@
 class Cargoship < Formula
   desc "High-performance S3 upload tool with intelligent sharding and compression"
   homepage "https://github.com/scttfrdmn/cargoship"
-  version "0.34.1"
+  version "0.35.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/scttfrdmn/cargoship/releases/download/v0.34.1/cargoship_0.34.1_darwin_x86_64.tar.gz"
-      sha256 "c978b6f78bfc0369ffdbcd10888923dd4094a6066be1457a7db2b76968ca2563"
+      url "https://github.com/scttfrdmn/cargoship/releases/download/v0.35.0/cargoship_0.35.0_darwin_x86_64.tar.gz"
+      sha256 "d9ca14588f547839390bcbbb437f33b504ff12297f395519e82cc41da7df48bc"
 
       define_method(:install) do
         bin.install "cargoship"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/scttfrdmn/cargoship/releases/download/v0.34.1/cargoship_0.34.1_darwin_arm64.tar.gz"
-      sha256 "4f4a14fc4386e65e3a3ef8cd9b91b5b01c9d1b97fe264a4cd2c4cfc57f2cd281"
+      url "https://github.com/scttfrdmn/cargoship/releases/download/v0.35.0/cargoship_0.35.0_darwin_arm64.tar.gz"
+      sha256 "294773e4a501dc9cc301e9284cc8ccb72f1e979627e70429a11f35b278712d76"
 
       define_method(:install) do
         bin.install "cargoship"
@@ -29,15 +29,15 @@ class Cargoship < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/scttfrdmn/cargoship/releases/download/v0.34.1/cargoship_0.34.1_linux_x86_64.tar.gz"
-      sha256 "8682fae4f11d84f146dda12909e33905b183f9069ff3bbf25475bff12020d460"
+      url "https://github.com/scttfrdmn/cargoship/releases/download/v0.35.0/cargoship_0.35.0_linux_x86_64.tar.gz"
+      sha256 "38b7b2f21d630af3100d4d6cc13734b25c7d2e3f02a2580ef6f68b73d04e7c4b"
       define_method(:install) do
         bin.install "cargoship"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/scttfrdmn/cargoship/releases/download/v0.34.1/cargoship_0.34.1_linux_arm64.tar.gz"
-      sha256 "fa54a8690bf3e7e16f300e67430084b3e7d3430678f7670c78b526de40084869"
+      url "https://github.com/scttfrdmn/cargoship/releases/download/v0.35.0/cargoship_0.35.0_linux_arm64.tar.gz"
+      sha256 "56830c963ba1385fc74c74da781d90ce5795c0cfcbdbc8bdbb25375e574e59db"
       define_method(:install) do
         bin.install "cargoship"
       end
